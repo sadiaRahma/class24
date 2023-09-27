@@ -1,0 +1,23 @@
+p::first-line{
+    color:rgb(35, 150, 200);
+}
+
+p::first-letter{
+    font-size:60px;
+    color:blueviolet;
+}
+span::first-line{
+    color:ghostwhite;
+}
+p.un::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+    color:darkgray;
+}
+h1::before{
+   content:url(img.gif);
+}
+h1::after{
+    content:"done done done ";
+    color:royalblue;
+}
